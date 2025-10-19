@@ -16,7 +16,7 @@
         <viewModel:MainViewModel/>
     </Window.DataContext>
 
-    <Border Background="#272537"
+    <Border Background="#000000"
             CornerRadius="20">
         <Grid>
             <Grid.ColumnDefinitions>
@@ -29,7 +29,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Elysian"
+            <TextBlock Text="BackRoom"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Foreground="White"
@@ -48,14 +48,14 @@
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
 
-                <RadioButton Content="Discovery"
+                <RadioButton Content="Em Aberto"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
                              Command="{Binding DiscoveryViewCommand}"/>
 
-                <RadioButton Content="Featured"
+                <RadioButton Content="Conta"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
