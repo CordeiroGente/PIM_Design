@@ -29,14 +29,23 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
 
+            <Image Grid.Row="0"
+                   Grid.Column="0"
+                   Width="35"
+                   Height="40"
+                   Margin="10,19,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Stretch="Uniform"
+                   Source="/Images/logo.png" />
+
             <TextBlock Text="BackRoom"
                        VerticalAlignment="Center"
                        HorizontalAlignment="Left"
                        Foreground="White"
                        FontSize="22"
-                       Margin="20,0,0,0"
+                       Margin="60,0,0,0"
                        FontFamily="/Fonts/#Poppins"/>
-
 
             <StackPanel Grid.Row="1">
 

@@ -20,8 +20,8 @@
 
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
-                        <GradientStop Color="#3aa0ff" Offset="1"/>
+                        <GradientStop Color="#3E3938" Offset="0.0"/>
+                        <GradientStop Color="Black" Offset="1"/>
                     </LinearGradientBrush>
                 </Border.Background>
 
@@ -33,29 +33,29 @@
 
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="World leader&#x0a;in global finance"
+                        <TextBlock Text="Bem Vindo ao seu sistema&#x0a;Backroom"
                                    Foreground="White"
                                    FontSize="28"
                                    Margin="20,10,10,0"/>
 
-                        <TextBlock Text="Get started today!"
+                        <TextBlock Text="Aprenda sobre seu sistema!"
                                    Foreground="White"
                                    FontSize="18"
                                    Margin="20,10,10,0"/>
                     </StackPanel>
 
-                    <Image Width="250"
-                           Height="250"
-                           Source="/Images/man.png"
+                    <Image Width="200"
+                           Height="200"
+                           Source="/Images/logo.png"
                            HorizontalAlignment="Right"
                            VerticalAlignment="Bottom"
-                           Margin="0,0,-99,-76" 
-                           RenderTransformOrigin="0.5,0.5">
+                           Margin="0,0,-24,-63" 
+                           RenderTransformOrigin="0.5,0.9">
                         <Image.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
                                 <SkewTransform/>
-                                <RotateTransform Angle="-15.169"/>
+                                <RotateTransform Angle="-12"/>
                                 <TranslateTransform/>
                             </TransformGroup>
                         </Image.RenderTransform>
@@ -71,8 +71,8 @@
 
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
-                        <GradientStop Color="#ffc554" Offset="0.0"/>
-                        <GradientStop Color="#ffb73a" Offset="1"/>
+                        <GradientStop Color="#3E3938" Offset="0.0"/>
+                        <GradientStop Color="Black" Offset="1"/>
                     </LinearGradientBrush>
                 </Border.Background>
 
@@ -97,23 +97,23 @@
             <StackPanel Orientation="Horizontal">
                 <Border Width="150"
                         Height="150"
-                        Background="#844eff"
+                        Background="#3E3938"
                         CornerRadius="10"
                         Margin="0"/>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#4e99ff"
+                        Background="#3E3938"
                         CornerRadius="10"/>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#4eff91"
+                        Background="#3E3938"
                         CornerRadius="10"/>
 
                 <Border Width="150"
                         Height="150"
-                        Background="#ecff4e"
+                        Background="#3E3938"
                         CornerRadius="10"/>
             </StackPanel>
             
