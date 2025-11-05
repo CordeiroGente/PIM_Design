@@ -62,7 +62,7 @@
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButtonTheme}"
-                             Command="{Binding DiscoveryViewCommand}"/>
+                             Command="{Binding EmAbertoViewCommand}"/>
 
                 <RadioButton Content="Conta"
                              Height="50"

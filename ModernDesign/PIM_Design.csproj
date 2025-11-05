@@ -88,6 +88,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MVVM\View\EmAbertoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MVVM\View\HomeView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -103,10 +107,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MVVM\ViewModel\DiscoveryViewModel.cs" />
+    <Compile Include="MVVM\ViewModel\EmAbertoModel.cs" />
     <Compile Include="MVVM\ViewModel\HomeViewModel.cs" />
     <Compile Include="MVVM\ViewModel\MainViewModel.cs" />
     <Compile Include="MVVM\View\DiscoveryView.xaml.cs">
       <DependentUpon>DiscoveryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MVVM\View\EmAbertoView.xaml.cs">
+      <DependentUpon>EmAbertoView.xaml</DependentUpon>
     </Compile>
     <Compile Include="MVVM\View\HomeView.xaml.cs">
       <DependentUpon>HomeView.xaml</DependentUpon>
